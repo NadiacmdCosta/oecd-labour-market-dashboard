@@ -8,7 +8,7 @@ An interactive data dashboard built with Python and Streamlit, pulling live labo
 
 This dashboard lets you explore key labour market indicators across OECD countries -- unemployment rate, employment rate, and population outside the labour force -- with interactive controls for country selection, time period, and chart type.
 
-It was built as **Project 3** in a structured Python learning path, with the goal of applying programming skills directly to the kind of data and questions that come up in labour economics research. The project is also a portfolio piece demonstrating that Python skills are being developed with real analytical intent, not just syntax exercises.
+It was built as **Project 3** in a structured Python learning path (will soon post **Projects** **1** and **2**), with the goal of applying programming skills directly to the kind of data and questions that come up in labour economics research. The project is also a portfolio piece demonstrating that Python skills are being developed with real analytical intent, not just syntax exercises.
 
 ---
 
@@ -23,8 +23,6 @@ The learning process was supported by Claude (Anthropic's AI assistant), used as
 ---
 
 ## Project Structure
-
-The entire dashboard lives in a single file: `dashboard.py`. This was a deliberate architectural decision -- rather than splitting across files at each stage, the file grows level by level, which makes it easier to see how each new feature connects to what already exists.
 
 The project was built in six levels:
 
@@ -45,6 +43,8 @@ A summary table showing, for each selected country and a user-defined time range
 
 **Level 6 -- AI Chat Panel** *(work in progress)*
 A chat panel at the bottom of the dashboard that will allow the user to ask questions about the data currently displayed. The system prompt is designed to constrain the model to the visible data and prevent hallucination of figures not in scope. The API key integration via `.env` and `python-dotenv` is in place; full wiring is pending.
+
+The dashboard lives in a single main file: `dashboard.py`, which represents the full current state of the project. Alongside it, the repository also includes `dashboard_level1.py` through `dashboard_level5.py` -- snapshots of the file at each stage of development, kept deliberately to show the evolution of the code from a static chart to a fully interactive dashboard. This was a conscious decision: rather than hiding the learning process. The level files make it easy to see exactly what was added at each step.
 
 ---
 
