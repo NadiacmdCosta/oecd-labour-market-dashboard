@@ -18,7 +18,7 @@ I completed a PhD in Engineering and Management at Instituto Superior Técnico (
 
 This project is part of a deliberate effort to expand that toolkit into Python, working progressively from basic scripts toward data pipelines, interactive dashboards, and eventually machine learning. Each project in the series is designed to be both a learning exercise and something genuinely useful or presentable.
 
-The learning process was supported by Claude (Anthropic's AI assistant), used as a coding instructor in a Socratic style -- meaning the focus was on reasoning through problems before writing code, understanding the *why* behind each decision, not just copying solutions. The code in this repository was written by me through that guided process.
+The learning process was supported by Claude, used as a coding instructor in a Socratic style -- meaning the focus was on reasoning through problems before writing code, understanding the *why* behind each decision, not just copying solutions. The code in this repository was written by me through that guided process.
 
 ---
 
